@@ -1,0 +1,98 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body {
+    padding: 0%;
+    margin: 0%;
+    background-color: hsl(30, 38%, 92%);
+}
+
+.card {
+    display: flex;
+    height: 500px;
+    width: 670px;
+    border-radius: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.card img {
+    border-top-left-radius: 2%;
+    border-bottom-left-radius: 2%;
+}
+
+.card .text {
+    padding: 10px 50px;
+}
+
+.card #top-heading {
+    font-family: "Montserrat";
+    color: hsl(228, 12%, 48%);
+    letter-spacing: 2px;
+}
+
+.card .text h1 {
+    font-family: "Fraunces";
+
+}
+
+.card .text p {
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+    line-height: 25px;
+}
+
+.card .priceing {
+    display: flex;
+
+}
+
+.card .text .offer {
+    color: hsl(158, 36%, 37%);
+    font-family: "Fraunces";
+    font-size: xx-large;
+    padding-right: 30px;
+    margin-top: 10px;
+}
+
+.card .text .price {
+    padding-top: 20px;
+    text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
+}
+
+.card .text .button {
+    background-color: hsl(158, 36%, 37%);
+    height: 50px;
+    width: 250px;
+    border-radius: 10px;
+    text-align: center;
+    color: aliceblue;
+    display: flex;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.card .text .button i {
+    margin: auto;
+    margin-right: -40px;
+}
+
+.card .text .button p {
+    color: aliceblue;
+    margin: auto;
+    font-size: 18px;
+}
+
+.card .text a {
+    text-decoration: none;
+}
